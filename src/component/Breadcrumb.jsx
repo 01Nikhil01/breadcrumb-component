@@ -9,9 +9,9 @@ const Breadcrumb = () => {
     <nav className="breadcrumb">
       <span>
         {breadcrumbItems.length === 0 ? (
-          "Home"
+          "Component Pack"
         ) : (
-          <Link to="/">Home</Link>
+          <Link to="/">Component Pack</Link>
         )}
       </span>
       {breadcrumbItems.map((breadcrumb, index) => (

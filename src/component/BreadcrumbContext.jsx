@@ -19,7 +19,7 @@ export function BreadcrumbProvider({ children }) {
       return { name, routeTo };
     });
 
-    setBreadcrumbItems(items);
+    setBreadcrumbItems(()=>items);
   }, [location]);
 
   const handleHomeClick = () => {
