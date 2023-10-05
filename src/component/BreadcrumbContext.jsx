@@ -14,12 +14,12 @@ export function BreadcrumbProvider({ children }) {
 
   useEffect(() => {
     const pathnames = location.pathname.split("/").filter((x) => x);
-    const items = pathnames.map((name, index) => {
-      const routeTo = `/${pathnames.slice(0, index + 1).join("/")}`;
-      return { name, routeTo };
-    });
-
-    setBreadcrumbItems(()=>items);
+    setBreadcrumbItems(
+      pathnames.map((name, index) => ({
+        name,
+        routeTo: `/${pathnames.slice(0, index + 1).join("/")}`,
+      }))
+    );
   }, [location]);
 
   const handleHomeClick = () => {
