@@ -2,30 +2,29 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { useBreadcrumb } from "./BreadcrumbContext";
 
-const Breadcrumb = () => {
+const Breadcrumb = ({ defaultLabel }) => {
   const { breadcrumbItems } = useBreadcrumb();
 
   return (
     <nav className="breadcrumb">
       <span>
         {breadcrumbItems.length === 0 ? (
-          "Component Pack"
+          defaultLabel
         ) : (
-          <Link to="/">Component Pack</Link>
+          <Link style={{color:"#000"}} to="/">{defaultLabel}</Link>
         )}
       </span>
       {breadcrumbItems.map((breadcrumb, index) => (
         <React.Fragment key={breadcrumb.routeTo}>
-          <span> / </span>
+          <span style={{fontSize:"20px",margin:"0 8px" }}>{'>'}</span>
           {index === breadcrumbItems.length - 1 ? (
             <span>{breadcrumb.name}</span>
           ) : (
-            <Link to={breadcrumb.routeTo}>{breadcrumb.name}</Link>
+            <Link style={{color:"#000"}} to={breadcrumb.routeTo}>{breadcrumb.name}</Link>
           )}
         </React.Fragment>
       ))}
     </nav>
   );
 };
-
 export default Breadcrumb;

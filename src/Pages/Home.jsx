@@ -8,7 +8,7 @@ function Home() {
       <div>
         {"   "}
         for going to tables{"  "}
-        <Link to="/products">Products</Link>
+        <Link to="/Products">Products</Link>
         <br />
 
         

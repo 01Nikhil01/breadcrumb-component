@@ -25,7 +25,7 @@ const ProductTable = () => {
             <tr key={product.id}>
               <td>{product.id}</td>
               <td>
-                <Link to={`/products/${product.id}`}>{product.name}</Link>
+                <Link to={`/Products/${product.id}`}>{product.name}</Link>
               </td>
               <td>${product.price}</td>
             </tr>

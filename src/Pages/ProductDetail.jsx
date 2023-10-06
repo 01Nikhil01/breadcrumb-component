@@ -46,7 +46,7 @@ const ProductDetail = () => {
       <h3>{selectedProduct.name}</h3>
       <p>Price: ${selectedProduct.price}</p>
       <p>{selectedProduct.description}</p>
-      <Link to={`/products/${selectedProduct.id}/feedback`}>Feedback</Link>
+      <Link to={`/Products/${selectedProduct.id}/Feedback`}>Feedback</Link>
     </div>
   );
 };

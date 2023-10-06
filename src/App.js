@@ -1,23 +1,23 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import ProductTable from "./component/ProductTable";
-import ProductDetail from "./component/ProductDetail";
+import ProductTable from "./Pages/ProductTable";
+import ProductDetail from "./Pages/ProductDetail";
 import Breadcrumb from "./component/Breadcrumb";
-import Feedback from "./component/Feedback";
-import Home from "./component/Home";
+import Feedback from "./Pages/Feedback";
+import Home from "./Pages/Home";
 import { BreadcrumbProvider } from "./component/BreadcrumbContext";
 
-
+const dynamicDefaultLabel = "Component Pack"//
 function App() {
   return (
     <Router>
       <BreadcrumbProvider>
-        <Breadcrumb />
+       <Breadcrumb defaultLabel= {dynamicDefaultLabel} />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/products" element={<ProductTable />} />
-          <Route path="/products/:id" element={<ProductDetail />} />
-          <Route path="/products/:id/feedback" element={<Feedback />} />
+          <Route path="/Products" element={<ProductTable />} />
+          <Route path="/Products/:id" element={<ProductDetail />} />
+          <Route path="/Products/:id/Feedback" element={<Feedback />} />
         </Routes>
       </BreadcrumbProvider>
     </Router>
