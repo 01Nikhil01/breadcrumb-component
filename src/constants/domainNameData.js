@@ -1,6 +1,6 @@
 export const data = [
     {
-      srNo: 1,
+      srNo: "1",
       DomainName: 'www.ebay.com',
       numberOfURL: 20,
       numberOfScreen: 50,
@@ -12,7 +12,7 @@ export const data = [
       componentStatus: 'None',
     },
     {
-      srNo: 1,
+      srNo: "2",
       DomainName: 'www.ebay.com',
       numberOfURL: 20,
       numberOfScreen: 50,
@@ -24,7 +24,7 @@ export const data = [
       componentStatus: 'None',
     },
     {
-      srNo: 1,
+      srNo: "3",
       DomainName: 'www.ebay.com',
       numberOfURL: 20,
       numberOfScreen: 50,
@@ -36,7 +36,7 @@ export const data = [
       componentStatus: 'None',
     },
     {
-      srNo: 1,
+      srNo: "4",
       DomainName: 'www.ebay.com',
       numberOfURL: 20,
       numberOfScreen: 50,
@@ -48,7 +48,7 @@ export const data = [
       componentStatus: 'None',
     },
     {
-      srNo: 1,
+      srNo: "5",
       DomainName: 'www.ebay.com',
       numberOfURL: 20,
       numberOfScreen: 50,

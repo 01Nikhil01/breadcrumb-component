@@ -1,6 +1,6 @@
 export const data = [
     {
-      srNo: 1,
+      srNo: "1",
       urllink: 'www.ebay.com/payments/ebaypay/payflowpro/aaaaaaaaaaaaaaaaaaaaaa',
       numberOfScreen: 50,
       annotationPercentage: '100%',
@@ -11,7 +11,7 @@ export const data = [
       componentStatus: 'None',
     },
     {
-      srNo: 2,
+      srNo: "2",
       urllink: 'www.ebay.com',
       numberOfScreen: 50,
       annotationPercentage: '100%',
@@ -22,7 +22,7 @@ export const data = [
       componentStatus: 'None',
     },
     {
-      srNo: 3,
+      srNo: "3",
       urllink: 'www.ebay.com',
       numberOfScreen: 50,
       annotationPercentage: '100%',
@@ -33,7 +33,7 @@ export const data = [
       componentStatus: 'None',
     },
     {
-      srNo: 4,
+      srNo: "4",
       urllink: 'www.ebay.com',
       numberOfScreen: 50,
       annotationPercentage: '100%',

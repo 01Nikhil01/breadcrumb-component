@@ -1,6 +1,6 @@
 export const data = [
     {
-      srNo: 1,
+      srNo: "1",
       screenIdNumber: '2235465sdds55dd',
       scrapping: 'None',
       annotationStatus: 'None',
@@ -9,7 +9,7 @@ export const data = [
       accountingStatus: 'None',
     },
     {
-        srNo: 2,
+        srNo: "2",
         screenIdNumber: '223546ecfedds55dd',
         scrapping: "None",
         annotationStatus: 'None',
@@ -18,7 +18,7 @@ export const data = [
         accountingStatus: 'None',
       },
       {
-        srNo: 3,
+        srNo: "3",
         screenIdNumber: '2239465sdds55dd',
         scrapping: "None",
         annotationStatus: 'None',
@@ -27,7 +27,7 @@ export const data = [
         accountingStatus: 'None',
       },
       {
-        srNo: 4,
+        srNo: "4",
         screenIdNumber: '22355f465sdds55dd',
         scrapping: "None",
         annotationStatus: 'None',
@@ -36,7 +36,7 @@ export const data = [
         accountingStatus: 'None',
       },
       {
-        srNo: 5,
+        srNo: "5",
         screenIdNumber: '2235465sdds55dd',
         scrapping: "None",
         annotationStatus: 'None',

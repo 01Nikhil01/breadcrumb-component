@@ -1,6 +1,6 @@
 export const data = [
     {
-      srNo: 1,
+      srNo: "1",
       componentPack: 'Musical Store',
       category: 'E-Commerce',
       numberOfDomain: 3,
@@ -13,7 +13,7 @@ export const data = [
       numberOfComponent: 32,
     },
     {
-      srNo: 2,
+      srNo: "2",
       componentPack: 'Musical Store',
       category: 'E-Commerce',
       numberOfDomain: 3,
@@ -26,7 +26,7 @@ export const data = [
       numberOfComponent: 32,
     },
     {
-      srNo: 3,
+      srNo: "3",
       componentPack: 'Musical Store',
       category: 'E-Commerce',
       numberOfDomain: 3,
@@ -39,7 +39,7 @@ export const data = [
       numberOfComponent: 32,
     },
     {
-      srNo: 4,
+      srNo: "4",
       componentPack: 'Musical Store',
       category: 'E-Commerce',
       numberOfDomain: 3,

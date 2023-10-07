@@ -1,8 +1,8 @@
 const header = [{
-    id: 1,
+    id: "1",
     label: Sr.No
 },
 {
-    id: 2,
+    id: "2",
     label: URL
 }]
